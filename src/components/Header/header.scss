@@ -1,0 +1,11 @@
+.header-wrapper {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-column-gap: 31px;
+
+  justify-content: right;
+
+  height: 18.5px;
+
+  padding: 33.3px 44.6px 34.2px 0;
+}

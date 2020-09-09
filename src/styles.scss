@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  font-style: normal;
+}
+
+.App {
+  font-family: Muli;
+  display: flex;
+  flex-direction: column;
+
+  width: calc(100vw);
+  height: calc(100vh);
+
+  .top {
+    // height: 55%;
+
+    .content {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  .bottom {
+    height: 45%;
+    background: #0F0F2B;
+  }
+}
