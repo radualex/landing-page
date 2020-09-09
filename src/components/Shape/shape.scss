@@ -1,5 +1,18 @@
 .shape-wrapper {
   width: 400px;
   height: 300px;
-  background: #000000;
+  // background: #000000;
+
+  display: flex;
+  flex-flow: column-reverse;
+
+  .triangle-bottomRight {
+      width: 0;
+      height: 0;
+      border-bottom: 219px solid #6650D5;
+      border-left: 219px solid transparent;
+      position: absolute;
+      right: 0;
+      
+  }
 }
