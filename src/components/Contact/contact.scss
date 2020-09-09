@@ -1,0 +1,31 @@
+.contact-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: Muli;
+  font-style: normal;
+
+  .contact--title {
+    font-weight: bold;
+    font-size: 32.4px;
+    line-height: 41px;
+    text-align: center;
+
+    width: 400px;
+
+    color: #FFFFFF;
+
+    margin: 0 0 17px 0;
+  }
+  
+  .contact--content {
+    font-weight: normal;
+    font-size: 16.2px;
+    line-height: 24px;
+    text-align: center;
+    
+    width: 396px;
+    color: #FFFFFF;
+  }
+}
