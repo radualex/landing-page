@@ -5,6 +5,7 @@ import Header from "./components/Header/header";
 import Action from "./components/Action/action";
 import Shape from "./components/Shape/shape";
 import Contact from "./components/Contact/contact";
+import ActionBottom from "./components/ActionBottom/actionBottom";
 
 export default function App() {
   return (
@@ -22,13 +23,17 @@ export default function App() {
           <Shape />
         </div>
       </div>
-      <div className="bottom">
+      <div className="main-content">
         <Contact
           title={"Join the Traversy Media mailing list"}
           content={
             "Sign up to the newsletter and be the first one to know about new courses or special offers."
           }
         />
+        <div className="main-content--action">
+          <ActionBottom />
+          <span className="description">We won’t spam. Pinky promise!</span>
+        </div>
       </div>
     </div>
   );

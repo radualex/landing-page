@@ -1,0 +1,26 @@
+.actionButton-wrapper {
+  display: flex;
+
+  input {
+    font-family: Muli;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16.2px;
+    line-height: 20px;
+    padding: 18px;
+    margin: 0 4.5px 0 0;
+    outline: none;
+
+    width: 297px;
+
+    border: 0.9px solid #26264A;
+    border-radius: 4.5px;
+
+    &::placeholder {
+      color: #0F0F2B;
+
+      mix-blend-mode: normal;
+      opacity: 0.7;
+    }
+  }
+}
