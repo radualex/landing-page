@@ -19,4 +19,9 @@
     cursor: pointer;
     opacity: 0.8;
   }
+
+  &:active {
+    mix-blend-mode: normal;
+    opacity: 0.9;
+  }
 }
